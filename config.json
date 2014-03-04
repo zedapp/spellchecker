@@ -1,0 +1,27 @@
+{
+    "modes": {
+        "text": {
+            "handlers": {
+                "check": ["Tools:Spelling:Check"],
+                "action": ["Tools:Spelling:Fix"]
+            }
+        },
+        "markdown": {
+            "handlers": {
+                "check": ["Tools:Spelling:Check"],
+                "action": ["Tools:Spelling:Fix"]
+            }
+        }
+    },
+    "commands": {
+        "Tools:Spelling:Check": {
+            "scriptUrl": "/packages/gh/zedapp/spellcheck/check.js"
+        },
+        "Tools:Spelling:Fix": {
+            "scriptUrl": "/packages/gh/zedapp//spellcheck/fix.js"
+        },
+        "Tools:Spelling:Change": {
+            "scriptUrl": "/packages/gh/zedapp/spellcheck/change.js"
+        }
+    }
+}
