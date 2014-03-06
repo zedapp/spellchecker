@@ -15,13 +15,13 @@
     },
     "commands": {
         "Tools:Spelling:Check": {
-            "scriptUrl": "/packages/gh/zedapp/spellchecker/check.js"
+            "scriptUrl": "./check.js"
         },
         "Tools:Spelling:Fix": {
-            "scriptUrl": "/packages/gh/zedapp/spellchecker/fix.js"
+            "scriptUrl": "./fix.js"
         },
         "Tools:Spelling:Change": {
-            "scriptUrl": "/packages/gh/zedapp/spellchecker/change.js"
+            "scriptUrl": "./change.js"
         }
     }
 }
