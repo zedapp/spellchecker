@@ -9,12 +9,12 @@ function loadDict(callback) {
     if (dict) {
         callback(null, dict);
     } else {
-        configfs.readFile("/default/spellcheck/en_US/en_US.aff", function(err, affData_) {
+        configfs.readFile("/packages/gh/zedapp/spellcheck/en_US/en_US.aff", function(err, affData_) {
             if (err) {
                 return callback(err);
             }
             affData = affData_;
-            configfs.readFile("/default/spellcheck/en_US/en_US.dic", function(err, wordsData_) {
+            configfs.readFile("/packages/gh/zedapp//spellcheck/en_US/en_US.dic", function(err, wordsData_) {
                 if (err) {
                     return callback(err);
                 }
