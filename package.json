@@ -1,6 +1,6 @@
 {
     "name": "Zed Spell checker",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Spell checker for text and markdown modes",
     "files": ["check.js", "change.js", "dict.js", "en_US/en_US.aff", "en_US/en_US.dic", "fix.js", "typo.js"]
 }
